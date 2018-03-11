@@ -6,7 +6,7 @@
   p {font-size: 16px;}
   .margin0 {
       margin-bottom: 0px;
-      margin-top: 45px;
+      margin-top: 50px;
       margin-right: 100px;
       margin-left: 100px;
   }
@@ -31,9 +31,22 @@
   .margin4 {
       margin-bottom: 0px;
       margin-top: 0px;
+      margin-right: 120px;
+      margin-left: 120px;
+  }
+  .marginH {
+      margin-bottom: 0px;
+      margin-top: 10px;
       margin-right: 100px;
       margin-left: 100px;
   }
+  .marginL {
+      margin-bottom: 0px;
+      margin-top: 0px;
+      margin-right: 140px;
+      margin-left: 120px;
+  }
+
   .display-5 {
   font-size: 1.6rem;
   font-weight: 300;
@@ -66,7 +79,7 @@
       color: #fff;
   }
   .container-fluid {
-      padding-top: 40px;
+      padding-top: 60px;
       padding-bottom: 20px;
   }
 
