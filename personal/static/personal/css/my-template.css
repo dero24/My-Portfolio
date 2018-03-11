@@ -4,15 +4,17 @@
       color: #000d1a;
   }
   p {font-size: 16px;}
+  .margin0 {
+      margin-bottom: 0px;
+      margin-top: 45px;
+      margin-right: 100px;
+      margin-left: 100px;
+  }
   .margin {
       /*margin-bottom: 45px;*/
       margin-top: 10px;
       margin-right: 120px;
       margin-left: 120px;
-  }
-  .margin0 {
-      /*margin-bottom: 45px;*/
-      margin-top: 45px;
   }
   .margin2 {
       margin-bottom: 30px;
@@ -26,8 +28,19 @@
       margin-right: 100px;
       margin-left: 100px;
   }
+  .margin4 {
+      margin-bottom: 0px;
+      margin-top: 0px;
+      margin-right: 100px;
+      margin-left: 100px;
+  }
   .display-5 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+  .display-6 {
+  font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -59,7 +72,7 @@
 
   .container-fluid2 {
       padding-top: 10px;
-      padding-bottom: 10px;
+      padding-bottom: 30px;
   }
   /*.navbar {
       padding-top: 15px;
