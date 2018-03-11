@@ -1,0 +1,56 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	{% load staticfiles %}
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>About Robby DeRosa</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'personal/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'personal/css/bootstrap.css' %}" rel="stylesheet">
+	<link href="{% static 'personal/css/my-template.css' %}" rel="stylesheet">
+    <link href="{% static 'personal/css/devicons.min.css' %}" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">About Me</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog/">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact/">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+      <!--<div class="starter-template">-->
+    <div class = "container-fluid text-center">
+        <p>
+          {% block content %}
+          {% endblock %}</p>
+    </div><!-- /.container -->
+
+
+    <script src="{% static 'personal/js/bootstrap.min.js' %}"></script>
+  </body>
+</html>

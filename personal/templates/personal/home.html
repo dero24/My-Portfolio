@@ -1,0 +1,35 @@
+{% extends "personal/header.html" %}
+{% load staticfiles %}
+
+{% block content %}
+    <div class="container-fluid bg-1">
+      <div>
+          <span class="d-block"> 
+            <img class="img-fluid img-profile rounded-circle" src="{% static 'personal/img/Me.jpg' %}" alt="Profile Picture" style="max-height: 300px; max-width: 300px;">
+          </span></div>
+        <h1 class="margin display-4 cl-2">Robby DeRosa</h1>
+        <h2 class="lead cl-2">Software Development | Web Applications | Micro-Controllers</h2>
+        <p class = "margin2 lead"><b>Hey everyone! </b> I fell in love with programming when I got my first Raspberry Pi and used it to build a new electronic drum module for my drumset. I fell in love all over again learning Django, and I'm determined to open up a world of new opportunities I've never dreamed possible</p>
+ 	</div>
+
+	  <section id="skills">
+	  	<div class = "container-fluid2 bg-2">
+	      <h2 class="margin3 display-4">Skills</h2>
+			  <p class="margin lead">
+				  Python, Java, Go, Perl, HTML, CSS, C++,  C#, Ruby</p>
+
+	      <div class="margin0 lead display-5">Tools I like to use:</div>
+	      <p class="margin lead">Django, PostgreSQL, JSON, Anaconda, Git, Heroku, Nagios Server, Web Scraping(Python & Go), Twitter API, Reddit API, Arduino Uno, Raspberry Pi/Linux, OpenCV, SSH secure Shell Client</p>
+	    </div>
+	</div>
+	  </section>
+
+
+
+
+
+
+
+
+<!--{% include "personal/includes/htmlsnippet.html" %}-->
+{% endblock %}
