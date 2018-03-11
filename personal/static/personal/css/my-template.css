@@ -11,7 +11,7 @@
       margin-left: 100px;
   }
   .margin {
-      /*margin-bottom: 45px;*/
+      margin-bottom: 0px;
       margin-top: 10px;
       margin-right: 120px;
       margin-left: 120px;
@@ -46,6 +46,18 @@
       margin-right: 140px;
       margin-left: 120px;
   }
+  .marginUL {
+      margin-bottom: 0px;
+      margin-top: 0px;
+      margin-right: 10px;
+      margin-left: 10px;
+  }
+  .marginCW {
+      margin-bottom: 0px;
+      margin-top: 0px;
+      margin-right: 120px;
+      margin-left: 140px;
+  }
 
   .display-5 {
   font-size: 1.6rem;
@@ -60,6 +72,9 @@
 
   .cl-2 { 
       color: #444444;
+  }
+  .cl-blue { 
+      color: #0099ff;
   }
 
   .bg-1 { 
