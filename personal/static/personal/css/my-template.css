@@ -11,10 +11,12 @@
       margin-left: 100px;
   }
   .margin {
-      margin-bottom: 0px;
+      width: 600px;
+      margin: auto;
+     /* margin-bottom: 0px;
       margin-top: 10px;
       margin-right: 120px;
-      margin-left: 120px;
+      margin-left: 120px;*/
   }
   .margin2 {
       margin-bottom: 30px;
@@ -78,7 +80,7 @@
   }
 
   .bg-1 { 
-      background-color: #fff; /* Green */
+      background-color: #fff; /* White */
       color: #666666;
   }
   .bg-2 { 
