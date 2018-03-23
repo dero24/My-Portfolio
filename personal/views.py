@@ -5,7 +5,7 @@ from django.http import HttpResponse
 def index(request):
     return render(request, 'personal/home.html')
 
-contact_info = ['If you would like to contact me, please email me.','robertfderosa@gmail.com']
+contact_info = ['If you would like to contact me, please email me at ','robertfderosa@gmail.com']
 args = {'content': contact_info}
     
 def contact(request):

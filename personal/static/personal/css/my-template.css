@@ -3,63 +3,109 @@
       line-height: 1.8;
       color: #000d1a;
   }
-  p {font-size: 16px;}
+  p {font-size: 16px;
+     overflow-wrap: break-word;
+   }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  a.anchor {
+    display: block;
+    position: relative;
+    top: -55px;
+    visibility: hidden;
+}
+  
   .margin0 {
       margin-bottom: 0px;
       margin-top: 50px;
-      margin-right: 100px;
-      margin-left: 100px;
+      margin-right: 10%;
+      margin-left: 10%;
   }
   .margin {
-      width: 600px;
-      margin: auto;
-     /* margin-bottom: 0px;
+      margin-bottom: 0px;
       margin-top: 10px;
-      margin-right: 120px;
-      margin-left: 120px;*/
+      margin-right: 10%;
+      margin-left: 10%;
   }
   .margin2 {
       margin-bottom: 30px;
       margin-top: 30px;
-      margin-right: 120px;
-      margin-left: 120px;
+      margin-right: 10%;
+      margin-left: 10%;
   }
   .margin3 {
       margin-bottom: 0px;
       margin-top: 30px;
-      margin-right: 100px;
-      margin-left: 100px;
+      margin-right: 10%;
+      margin-left: 10%;
   }
   .margin4 {
       margin-bottom: 0px;
       margin-top: 0px;
-      margin-right: 120px;
-      margin-left: 120px;
+      margin-right: 10%;
+      margin-left: 10%;
   }
   .marginH {
       margin-bottom: 0px;
       margin-top: 10px;
-      margin-right: 100px;
-      margin-left: 100px;
+      margin-right: 10%;
+      margin-left: 10%;
   }
   .marginL {
       margin-bottom: 0px;
       margin-top: 0px;
-      margin-right: 140px;
-      margin-left: 120px;
+      margin-right: 10%;
+      margin-left: 10%;
+      overflow-wrap: break-word;
   }
   .marginUL {
       margin-bottom: 0px;
-      margin-top: 0px;
-      margin-right: 10px;
-      margin-left: 10px;
+      margin-top: 30px;
+      margin-right: 0%;
+      margin-left: 1%;
+  }
+  .marginUL2 {
+      margin-bottom: 0px;
+      margin-top: 20px;
+      margin-right: 0%;
+      margin-left: 1%;
   }
   .marginCW {
       margin-bottom: 0px;
       margin-top: 0px;
-      margin-right: 120px;
-      margin-left: 140px;
+      margin-right: 10%;
+      margin-left: 10%;
   }
+
+  .titlela {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+  .subtitle {
+  font-size: 0.875rem;
+  font-weight: 100;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+  .subtitlepad {
+  font-size: 1rem;
+  font-weight: 100;
+  margin-right: 0%;
+  margin-left: 75%;
+}
+
+  .display-4 {
+  font-size: 2.6rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
 
   .display-5 {
   font-size: 1.6rem;
@@ -88,31 +134,33 @@
       color: #ffffff;
   }
   .bg-3 { 
-      background-color: #ffffff; /* White */
-      color: #555555;
+      background-color: #ff9900; /* Orange */
+      color: #fff;
   }
   .bg-4 { 
       background-color: #2f2f2f; /* Black Gray */
       color: #fff;
   }
   .container-fluid {
-      padding-top: 60px;
+      padding-top: 80px;
       padding-bottom: 20px;
+      margin-right: auto;
+      margin-left: auto;
   }
 
   .container-fluid2 {
       padding-top: 10px;
       padding-bottom: 30px;
+      margin-right: auto;
+      margin-left: auto;
   }
-  /*.navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
+  .navbar {
       border: 0;
       border-radius: 0;
       margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }*/
+      font-size: 14px;
+      letter-spacing: 2px;
+  }
   .navbar-nav  li a:hover {
       color: #0099ff !important;
   }

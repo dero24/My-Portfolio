@@ -14,7 +14,7 @@
     <!-- Bootstrap core CSS -->
     <link href="{% static 'personal/css/bootstrap.min.css' %}" rel="stylesheet">
     <link href="{% static 'personal/css/bootstrap.css' %}" rel="stylesheet">
-	<link href="{% static 'personal/css/my-template.css' %}" rel="stylesheet">
+	  <link href="{% static 'personal/css/my-template.css' %}" rel="stylesheet">
     <link href="{% static 'personal/css/devicons.min.css' %}" rel="stylesheet">
 
   </head>
@@ -28,7 +28,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto" style="font-size: 18px;">
           <li class="nav-item active">
             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
           </li>
@@ -36,7 +36,24 @@
             <a class="nav-link" href="/blog/">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact/">Contact</a>
+            <a class="nav-link" target="_blank" <a href="https://github.com/dero24">Github</a></a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+         <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>-->
           </li>
         </ul>
       </div>
@@ -44,11 +61,14 @@
 
 
       <!--<div class="starter-template">-->
-    <div class = "container-fluid text-center">
-        <p>
+    <div class = "container-fluid text-center ">
           {% block content %}
-          {% endblock %}</p>
+          {% endblock %}
     </div><!-- /.container -->
+
+    <footer id="footer">
+    <p class="copyright">Developed with Django</p>
+    </footer>
 
 
     <script src="{% static 'personal/js/bootstrap.min.js' %}"></script>
